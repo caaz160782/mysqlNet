@@ -1,5 +1,4 @@
 using MySql.Data.MySqlClient;
-using System;
 
 namespace ConnectionMysql
 {
@@ -39,7 +38,6 @@ namespace ConnectionMysql
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
-
         public void InsertDb(string nombre){
              try
             {
@@ -66,8 +64,7 @@ namespace ConnectionMysql
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
-
-         public void InsertDb2(string nombre){
+        public void InsertDb2(string nombre){
              try
             {
                 using var con = new MySqlConnection(Conectando());
@@ -93,8 +90,7 @@ namespace ConnectionMysql
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
-
-          public void updateDb(string nombre, int id){
+        public void updateDb(string nombre, int id){
              try
             {
                 using var con = new MySqlConnection(Conectando());
@@ -121,8 +117,7 @@ namespace ConnectionMysql
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
-
-            public void DeleteDb(int id){
+        public void DeleteDb(int id){
              try
             {
                 using var con = new MySqlConnection(Conectando());
@@ -148,7 +143,6 @@ namespace ConnectionMysql
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
-
 
     }
 }
