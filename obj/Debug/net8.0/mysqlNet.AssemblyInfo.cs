@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mysqlNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+186912a083827bdf11d33846fedb972f0f1cfa2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("mysqlNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mysqlNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
